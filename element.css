@@ -1,0 +1,548 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins',sans-serif;
+    background-color: #37517E;
+}
+
+.navbar, a {
+    color: aliceblue;
+    font-size: 20px;
+    text-align: right;
+    margin: 14px;
+}
+
+.btn {
+    font-size: 1.6rem;
+    border: .2rem solid rgb(0, 162, 225);
+    border-radius: 6rem;
+    background: rgb(0, 162, 255);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 1rem rgb(0, 162, 255);
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.btn:hover {
+    box-shadow: none;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home-content,h3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.home-content h1 {
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.home-content p{
+    font-size: 1.6rem;
+}
+
+.home-content {
+    margin: 10%;
+}
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.2rem;
+    height: 3.2rem;
+    background: transparent;
+    border: .2rem solid rgb(0, 162, 225);
+    border-radius: 40%;
+    font-size: 2rem;
+    color: white;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5s ease;
+}
+
+.social-media a:hover {
+    background: rgb(0, 162, 255);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 1rem rgb(0, 162, 255);
+}
+
+.services h2 {
+    margin-bottom: 4rem;
+}
+
+.home1-img {
+    margin: 10%;
+    /* padding-right: 1px; */
+    height: 450px;
+    width: 420px;
+    box-shadow: 0 0 25px #0ef;
+    background-size: cover;
+    border-radius: 20%;
+    border: 8px solid #0ef;
+    background-image: url("website\ image.png");
+}
+
+.home2-img {
+    margin: 10%;
+    height: 450px;
+    width: 420px;
+    box-shadow: 0 0 25px #0ef;
+    background-size: cover;
+    border-radius: 20%;
+    border: 8px solid #0ef;
+    background-image: url("Operating\ system\ website\ image.gif");
+}
+
+.home3-img {
+    margin: 10%;
+    height: 450px;
+    width: 420px;
+    box-shadow: 0 0 25px #0ef;
+    background-size: cover;
+    border-radius: 20%;
+    border: 8px solid #0ef;
+    background-image: url("mark.png");
+}
+
+.services {
+    margin-top: 10%;
+}
+
+.services h2 {
+    /* margin-bottom: 5rem; */
+    text-align: center;
+    color: white;
+    font-size: 46px;
+}
+
+
+.services-container {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.services-container .services-box{
+    height: 590px;
+    /* width: 500px; */
+    width: 32vw;
+    /* padding-bottom: 30px; */
+    background: #375e7e;
+    border-radius: 2rem;
+    text-align: center;
+    border: .3rem solid rgb(0, 162, 225);
+    transition: .5s ease;
+}
+
+.services-container .services-box:hover{
+    border-color: 0 0 1rem rgb(0, 162, 255);
+    transform: scale(1.02);
+}
+
+.services-box i {
+    font-size: 3rem;
+    /* color:  0 0 1rem rgb(0, 162, 255); */
+    color: rgb(0, 179, 255);
+}
+
+/* .services-box h3 {
+    font-size: 2.3rem;
+}
+
+.services-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+} */
+
+.services {
+    background-color: #375e7e;
+    border: transparent;
+}
+
+.about {
+    margin-top: 8%;
+}
+
+.about-content h2, h3, p {
+    text-align: center;
+    background-color: #37517E;
+}
+
+.about-content p {
+    font-size: 1.6rem;
+}
+
+.about-content h3 {
+    font-size: 46px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background-color:  #5c6472;
+}
+
+.footer-text p {
+    font-size: 1.7rem;
+    /* color: black; */
+    /* background: transparent; */
+}
+
+.footer-iconTop a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    color: rgb(0, 187, 255);
+    border-radius: .8rem;
+    transition: .5s ease;
+}
+
+.footer-iconTop a:hover{
+    box-shadow: rgb(0, 106, 255);
+}
+
+.footer-iconTop a i {
+    font-size: 2.4rem;
+    /* background-color: var(--second-bg-color); */
+    /* color: #ffffff; */
+}
+
+/* .footer {
+    background-color: #5c6472;
+} */
+
+#box1 {
+    height: 350px;
+    width: 350px;
+    margin-left: 5%;
+    /* margin-top: 10%; */
+    background-image: url("img1.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+    border: 5px solid rgb(0, 162, 225);
+    position: relative;
+    overflow: hidden;
+}
+
+#bottom p {
+    height: 70%;
+    width: 100%;
+    background: linear-gradient(transparent, rgb(0, 225, 255));
+    position: absolute;
+    bottom: -70%;
+    transition: all ease .5s;
+    font-size: 2.6rem;
+    color: white;
+    text-align: center;
+}
+
+#box1:hover #bottom p{
+    bottom: 0;
+
+}
+
+p{
+    text-align: center;
+    color: azure;
+    /* margin-top: 5%; */
+    
+}
+
+#box2 {
+    height: 350px;
+    width: 350px;
+    /* margin-top: 10%; */
+    background-image: url("img2.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+    border: 5px solid rgb(0, 162, 225);
+    position: relative;
+    overflow: hidden;
+}
+
+#bottom p {
+    height: 70%;
+    width: 100%;
+    background: linear-gradient(transparent, rgb(0, 225, 255));
+    position: absolute;
+    bottom: -70%;
+    transition: all ease .5s;
+    font-size: 2.6rem;
+    color: white;
+    text-align: center;
+}
+
+#box2:hover #bottom p{
+    bottom: 0;
+
+}
+
+p{
+    text-align: center;
+    color: azure;
+    /* margin-top: 5%; */
+    
+}
+
+#box3 {
+    height: 350px;
+    width: 350px;
+    /* margin-top: 10%; */
+    background-image: url("img3.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+    border: 5px solid rgb(0, 162, 225);
+    position: relative;
+    overflow: hidden;
+}
+
+#bottom p {
+    height: 70%;
+    width: 100%;
+    background: linear-gradient(transparent, rgb(0, 225, 255));
+    position: absolute;
+    bottom: -70%;
+    transition: all ease .5s;
+    font-size: 2.6rem;
+    color: white;
+    text-align: center;
+}
+
+#box3:hover #bottom p{
+    bottom: 0;
+
+}
+
+p{
+    text-align: center;
+    color: azure;
+    /* margin-top: 5%; */
+    
+}
+
+#box4 {
+    height: 350px;
+    width: 350px;
+    /* margin-top: 10%; */
+    background-image: url("img4.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+    border: 5px solid rgb(0, 162, 225);
+    position: relative;
+    overflow: hidden;
+}
+
+#bottom p {
+    height: 70%;
+    width: 100%;
+    background: linear-gradient(transparent, rgb(0, 225, 255));
+    position: absolute;
+    bottom: -70%;
+    transition: all ease .5s;
+    font-size: 2.6rem;
+    color: white;
+    text-align: center;
+}
+
+#box4:hover #bottom p{
+    bottom: 0;
+
+}
+
+p{
+    text-align: center;
+    color: azure;
+    /* margin-top: 5%; */
+    
+}
+
+#box5 {
+    height: 350px;
+    width: 350px;
+    margin-left: 5%;
+    /* margin-top: 10%; */
+    background-image: url("img5.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+    border: 5px solid rgb(0, 162, 225);
+    position: relative;
+    overflow: hidden;
+}
+
+#bottom p {
+    height: 70%;
+    width: 100%;
+    background: linear-gradient(transparent, rgb(0, 225, 255));
+    position: absolute;
+    bottom: -70%;
+    transition: all ease .5s;
+    font-size: 2.6rem;
+    color: white;
+    text-align: center;
+}
+
+#box5:hover #bottom p{
+    bottom: 0;
+
+}
+
+p{
+    text-align: center;
+    color: azure;
+    /* margin-top: 5%; */
+    
+}
+
+#box6 {
+    height: 350px;
+    width: 350px;
+    /* margin-top: 10%; */
+    background-image: url("img6.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+    border: 5px solid rgb(0, 162, 225);
+    position: relative;
+    overflow: hidden;
+}
+
+#bottom p {
+    height: 70%;
+    width: 100%;
+    background: linear-gradient(transparent, rgb(0, 225, 255));
+    position: absolute;
+    bottom: -70%;
+    transition: all ease .5s;
+    font-size: 2.6rem;
+    color: white;
+    text-align: center;
+}
+
+#box6:hover #bottom p{
+    bottom: 0;
+
+}
+
+p{
+    text-align: center;
+    color: azure;
+    /* margin-top: 5%; */
+    font-size: 1.2rem;
+    
+}
+
+#box7 {
+    height: 350px;
+    width: 350px;
+    /* margin-top: 10%; */
+    background-image: url("img7.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+    border: 5px solid rgb(0, 162, 225);
+    position: relative;
+    overflow: hidden;
+}
+
+#bottom p {
+    height: 70%;
+    width: 100%;
+    background: linear-gradient(transparent, rgb(0, 225, 255));
+    position: absolute;
+    bottom: -70%;
+    transition: all ease .5s;
+    font-size: 2.6rem;
+    color: white;
+    text-align: center;
+}
+
+#box7:hover #bottom p{
+    bottom: 0;
+
+}
+
+p{
+    text-align: center;
+    color: azure;
+    /* margin-top: 5%; */
+    font-size: 1.2rem;
+    
+}
+
+#box8 {
+    height: 350px;
+    width: 350px;
+    /* margin-top: 10%; */
+    background-image: url("img8.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+    border: 5px solid rgb(0, 162, 225);
+    position: relative;
+    overflow: hidden;
+}
+
+#bottom p {
+    height: 70%;
+    width: 100%;
+    background: linear-gradient(transparent, rgb(0, 225, 255));
+    position: absolute;
+    bottom: -70%;
+    transition: all ease .5s;
+    font-size: 2.6rem;
+    color: white;
+    text-align: center;
+}
+
+#box8:hover #bottom p, i{
+    bottom: 0;
+
+}
+
+p{
+    text-align: center;
+    color: azure;
+    /* margin-top: 5%; */
+    font-size: 1.2rem;
+    
+}
+
+.portfolio h2 {
+    text-align: center;
+    color: white;
+    font-size: 2.9rem;
+    margin-top: 5%;
+}
+
+ .portfolio, #portfolio, #box1, #box2, #box3, #box4 ,#box5, #box6, #box7, #box8 {
+    margin-top: 1%;
+    display: inline-block;
+    /* flex-wrap: wrap; */
+   
+}
